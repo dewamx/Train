@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- FireBase -->
+    <title>Train Scheduler</title>
+    <script src="https://www.gstatic.com/firebasejs/6.1.0/firebase-app.js"></script>
+    <link rel="stylesheet" href="Train\assets\css\style.css">
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class="display-3 text-center">Train Scheduler</h1>
+<hr>
+        <div id="inputDiv">
+            <label for="trainName">Train Name</label>
+            <input type="text">
+            <label for="destination">Destination</label>
+            <input type="text">
+            <label for="firstTrain">First Train </label>
+            <input type="text">
+            <label for="frequency">Frequency</label>
+            <input type="text">
+            <button id="submit" class="btn btn-info">submit</button>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Train Name</th>
+                <th>Destination</th>
+                <th>Frequency (min)</th>
+                <th>Next Arrival</th>
+                <th>Minutes Away</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="Train\assets\js\script.js"></script>
+</body>
+
+</html>

@@ -1,4 +1,13 @@
-#inputDiv {
-    width: fit-content;
-    margin: 0 auto;
+.jumbotron {
+	background-color: brown;
+	color: white;
+}
+
+.panel-default>.panel-heading {
+	background-color: blue;
+	color: white;
+}
+
+.btn {
+	background-color: blue;
 }
